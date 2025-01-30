@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\user\\Documents\\Dev\\projects\\CashFlow\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F80098C8-FC0D-4D0B-9DEA-3126D0DCD08F}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|d:\\user\\documents\\dev\\projects\\cashflow\\src\\cashflow.exception\\cashflow.exception.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F80098C8-FC0D-4D0B-9DEA-3126D0DCD08F}|src\\CashFlow.Exception\\CashFlow.Exception.csproj|solutionrelative:src\\cashflow.exception\\cashflow.exception.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA89DF36-77D8-4106-8593-D69DF7DFE017}|src\\CashFlow.Application\\CashFlow.Application.csproj|d:\\user\\documents\\dev\\projects\\cashflow\\src\\cashflow.application\\usecases\\expenses\\register\\registerexpensevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA89DF36-77D8-4106-8593-D69DF7DFE017}|src\\CashFlow.Application\\CashFlow.Application.csproj|solutionrelative:src\\cashflow.application\\usecases\\expenses\\register\\registerexpensevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,15 +18,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 180,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CashFlow.Exception",
+              "DocumentMoniker": "D:\\user\\Documents\\Dev\\projects\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj",
+              "RelativeDocumentMoniker": "src\\CashFlow.Exception\\CashFlow.Exception.csproj",
+              "ToolTip": "D:\\user\\Documents\\Dev\\projects\\CashFlow\\src\\CashFlow.Exception\\CashFlow.Exception.csproj",
+              "RelativeToolTip": "src\\CashFlow.Exception\\CashFlow.Exception.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-30T02:48:54.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RegisterExpenseValidator.cs",
               "DocumentMoniker": "D:\\user\\Documents\\Dev\\projects\\CashFlow\\src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseValidator.cs",
               "RelativeDocumentMoniker": "src\\CashFlow.Application\\UseCases\\Expenses\\Register\\RegisterExpenseValidator.cs",
@@ -32,6 +45,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-29T19:45:15.11Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }
