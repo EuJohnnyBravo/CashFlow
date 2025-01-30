@@ -11,12 +11,12 @@
     &lt;TestId&gt;xUnit::1171874F-BAD2-4789-86B7-3DA0134DD6C6::net9.0::Validators.Tests.Expenses.Register.RegisterExpenseValidatorTests.Success&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b2438811_002D6f15_002D4d7f_002Dab0c_002D9f2189c80394/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ErrorTitleEmpty" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=b2438811_002D6f15_002D4d7f_002Dab0c_002D9f2189c80394/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="ErrorTitleEmpty" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::1171874F-BAD2-4789-86B7-3DA0134DD6C6::net9.0::Validators.Tests.Expenses.Register.RegisterExpenseValidatorTests.ErrorTitleEmpty&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c01a46ab_002Daa0f_002D46af_002Dbca3_002D0993ca3d3059/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=c01a46ab_002Daa0f_002D46af_002Dbca3_002D0993ca3d3059/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Success" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::1171874F-BAD2-4789-86B7-3DA0134DD6C6::net9.0::Validators.Tests.Expenses.Register.RegisterExpenseValidatorTests&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
