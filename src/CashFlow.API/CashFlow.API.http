@@ -1,6 +1,17 @@
 @CashFlow.API_HostAddress = http://localhost:5261
 
-GET {{CashFlow.API_HostAddress}}/weatherforecast/
+POST http://localhost:5261/api/expenses
 Accept: application/json
+Accept-Language: pt-BR
+Content-Type: application/json
+
+{
+  "title": "",
+  "description": "Celular",
+  "date": "2025-01-01",
+  "amount": 1,
+  "paymentType": 1
+}
+
 
 ###

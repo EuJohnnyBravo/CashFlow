@@ -1,4 +1,5 @@
 using CashFlow.API.Filters;
+using CashFlow.API.Middleware;
 using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +19,8 @@ if (app.Environment.IsDevelopment())
         options.Title = "Dev Project Cash Flow";
     });
 }
+
+app.UseMiddleware<CultureMiddleware>();
 
 app.UseHttpsRedirection();
 
