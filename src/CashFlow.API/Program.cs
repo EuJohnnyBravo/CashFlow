@@ -1,5 +1,6 @@
 using CashFlow.API.Filters;
 using CashFlow.API.Middleware;
+using CashFlow.Application;
 using CashFlow.Infrastructure;
 using Scalar.AspNetCore;
 
@@ -10,6 +11,7 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
 
+builder.Services.AddApplication();
 builder.Services.AddInfrastructure();
 
 var app = builder.Build();
