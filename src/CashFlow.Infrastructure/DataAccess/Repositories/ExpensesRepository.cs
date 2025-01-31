@@ -8,6 +8,5 @@ internal class ExpensesRepository(CashFlowDbContext dbContext): IExpensesReposit
     public void Add(Expense expense)
     {
         dbContext.Expenses.Add(expense);
-        dbContext.SaveChanges();
     }
 }
