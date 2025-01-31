@@ -3,14 +3,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CashFlow.Infrastructure.DataAccess;
 
-public class CashFlowDbContext: DbContext
+internal class CashFlowDbContext(DbContextOptions options) : DbContext(options)
 {
     public DbSet<Expense> Expenses { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        var connectionString = "Server=localhost;Database=cashflowdb;Uid=root;Pwd=Root@123";
-        var serverVersion = new MySqlServerVersion(new Version(8,0,35));
-        optionsBuilder.UseMySql(connectionString, serverVersion);
-    }
+    
 }
