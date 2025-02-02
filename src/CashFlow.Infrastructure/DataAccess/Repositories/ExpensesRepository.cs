@@ -13,6 +13,18 @@ internal class ExpensesRepository(CashFlowDbContext dbContext) :
         await dbContext.Expenses.AddAsync(expense);
     }
 
+    public async Task<bool> Delete(long id)
+    {
+        var result = await dbContext.Expenses.FirstOrDefaultAsync(expense => expense.Id == id);
+        if (result is null)
+        {
+            return false;
+        }
+        dbContext.Expenses.Remove(result);
+
+        return true;
+    }
+
     public async Task<List<Expense>> GetAll()
     {
         return await dbContext.Expenses.ToListAsync();
