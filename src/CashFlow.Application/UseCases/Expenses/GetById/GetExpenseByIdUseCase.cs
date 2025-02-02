@@ -7,7 +7,7 @@ using CashFlow.Exception.ExceptionsBase;
 namespace CashFlow.Application.UseCases.Expenses.GetById;
 
 public class GetExpenseByIdUseCase(
-    IExpensesRepository repository,
+    IExpensesReadOnlyRepository repository,
     IMapper mapper
     ): IGetExpenseByIdUseCase
 {
