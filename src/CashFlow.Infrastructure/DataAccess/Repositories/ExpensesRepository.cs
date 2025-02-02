@@ -4,7 +4,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace CashFlow.Infrastructure.DataAccess.Repositories;
 
-internal class ExpensesRepository(CashFlowDbContext dbContext): IExpensesRepository
+internal class ExpensesRepository(CashFlowDbContext dbContext) : 
+    IExpensesWriteOnlyRepository, 
+    IExpensesReadOnlyRepository
 {
     public async Task Add(Expense expense)
     {
