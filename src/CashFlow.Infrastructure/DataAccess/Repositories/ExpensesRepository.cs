@@ -15,4 +15,10 @@ internal class ExpensesRepository(CashFlowDbContext dbContext): IExpensesReposit
     {
         return await dbContext.Expenses.ToListAsync();
     }
+    
+    public async Task<Expense?> GetById(long id)
+    {
+        return await dbContext.Expenses.AsNoTracking()
+            .FirstOrDefaultAsync(expense => expense.Id == id);
+    }
 }

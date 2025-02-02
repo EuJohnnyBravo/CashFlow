@@ -1,4 +1,5 @@
 using CashFlow.Application.UseCases.Expenses.GetAll;
+using CashFlow.Application.UseCases.Expenses.GetById;
 using CashFlow.Application.UseCases.Expenses.Register;
 using CashFlow.Communication.Requests;
 using CashFlow.Communication.Responses;
@@ -29,7 +30,22 @@ public class ExpensesController : ControllerBase
         var response = await useCase.Execute();
         if (response.Expenses.Count != 0)
             return Ok(response);
-        
         return NoContent();
     }
+    
+    //TODO 1 - fazer end point para pegar despesa por id
+    [HttpGet]
+    [Route("{id}")]
+    [ProducesResponseType(typeof(ResponseExpenseJson), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ResponseErrorJson),StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> GetById(
+        [FromServices] IGetExpenseByIdUseCase useCase,
+        [FromRoute] long id)
+    {
+        var response = await useCase.Execute(id);
+        return Ok(response);
+    }
+    
+    //TODO 2 - fazer end point para atualizar despesa
+    //TODO 3 - fazer end point para deletar despesa
 }
