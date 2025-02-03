@@ -2,12 +2,12 @@
 
 namespace CashFlow.Domain.Entities;
 
-public class Expense(string title)
+public class Expense
 {
-    public long Id { get; init; }
-    public string Title { get; init; } = title;
-    public string? Description { get; init; }
-    public DateTime Date { get; init; }
-    public decimal Amount { get; init; }
-    public PaymentType PaymentType { get; init; }
+    public long Id { get; set; }
+    public string Title { get; set; }
+    public string? Description { get; set; }
+    public DateTime Date { get; set; }
+    public decimal Amount { get; set; }
+    public PaymentType PaymentType { get; set; }
 }
